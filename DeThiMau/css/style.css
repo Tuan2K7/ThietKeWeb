@@ -41,6 +41,48 @@
 	margin: 0 auto;
 }
 /*begin header*/
+.header{
+  width: 100%;
+ 
+}
+.logo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+.logo img{
+  width: 900px;
+}
+.logo p{
+  font-size: 30px;
+  font-weight: bold;
+
+}
+.menu{
+  background-color: #c9c9c9;
+  padding: 10px 0;
+  border: 10px solid blue;
+  
+}
+.menu ul{
+  margin:0;
+  padding:0;
+  list-style: none;
+  display:flex;
+}
+.menu li{
+  padding: 10px 20px;
+  font-size: 25px;
+}
+.menu li a{
+  text-decoration: none;
+  color: black;
+}
+.menu a:hover{
+  color: red;
+  background-color: #FCD917;
+}
 
 /*end header*/
 .main{
